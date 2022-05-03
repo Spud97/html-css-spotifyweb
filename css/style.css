@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+
+.debug {
+  /* DEBUG */
+  border: 1px dashed red;
+}
+
+.app-container {
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grow {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.scroll {
+  overflow: auto;
+}
+
+.head-container {
+  flex-shrink: 0;
+  padding: 2rem 0;
+}
+
+.player-container {
+  flex-shrink: 0;
+  padding: 2rem 0;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  width: 150px;
+}
+
