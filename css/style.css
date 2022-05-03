@@ -36,6 +36,11 @@ body {
   overflow: auto;
 }
 
+.sidebar {
+  flex-shrink: 0;
+  width: 150px;
+}
+
 .head-container {
   flex-shrink: 0;
   padding: 2rem 0;
@@ -45,9 +50,3 @@ body {
   flex-shrink: 0;
   padding: 2rem 0;
 }
-
-.sidebar {
-  flex-shrink: 0;
-  width: 150px;
-}
-
