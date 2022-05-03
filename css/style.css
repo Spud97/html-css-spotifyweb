@@ -38,15 +38,56 @@ body {
 
 .sidebar {
   flex-shrink: 0;
-  width: 150px;
+  width: 200px;
 }
 
 .head-container {
   flex-shrink: 0;
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 
 .player-container {
   flex-shrink: 0;
   padding: 2rem 0;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-dark {
+  background-color: #080b12;
+}
+
+.bg-semidark {
+  background-color: #141922;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-grey {
+  color: #7c7f83;
+}
+
+.font-small {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.logo {
+  width: 80%;
+  padding: 1rem 0 1.2rem 1rem;
+}
+
+.menù-item {
+  width: 42px;
+  display: inline-block;
+  padding-left: 1rem;
+  vertical-align: top;
+}
+
+.menù-text {
+  display: inline-block;
 }
