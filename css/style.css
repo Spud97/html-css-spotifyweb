@@ -55,6 +55,19 @@ li {
   padding-bottom: 0.2rem;
 }
 
+#player-img {
+  height: 40px;
+}
+
+#playbutton {
+  padding: 0px 5px;
+  vertical-align: middle;
+}
+
+#playbutton:hover {
+  font-size: 1.4rem;
+}
+
 .debug {
   /* DEBUG */
   border: 1px dashed red;
@@ -77,6 +90,14 @@ li {
   justify-content: flex-end;
 }
 
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
 .grow {
   flex-grow: 1;
   overflow: hidden;
@@ -93,12 +114,14 @@ li {
 
 .head-container {
   flex-shrink: 0;
-  padding: 1rem 1rem 1.5rem;
+  padding: 2.8rem 1rem;
+  position: relative;
 }
 
 .player-container {
   flex-shrink: 0;
-  padding: 2.8rem 0;
+  height: 80px;
+  padding: 0.6rem 0.5rem;
 }
 
 .bg-black {
@@ -106,7 +129,7 @@ li {
 }
 
 .bg-dark {
-  background-color: #0a0e18;
+  background-color: #090c14;
 }
 
 .bg-semidark {
@@ -130,6 +153,20 @@ li {
   cursor: pointer;
 }
 
+.add-underline:hover {
+  text-decoration: underline;
+}
+
+.font-xs {
+  font-size: 0.6rem;
+  font-weight: bolder;
+}
+
+.font-little {
+  font-size: 0.7rem;
+  font-weight: bolder;
+}
+
 .font-small {
   font-size: 0.8rem;
   font-weight: bolder;
@@ -138,6 +175,10 @@ li {
 .font-medium {
   font-size: 0.9rem;
   font-weight: bolder;
+}
+
+.font-big {
+  font-size: 1.3rem;
 }
 
 .logo {
@@ -178,4 +219,63 @@ li {
   border-radius: 2rem;
   text-align: center;
   background-color: transparent;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.button:hover {
+  font-size: 0.9rem;
+}
+
+.current-song {
+  padding: 0.3rem 0.7rem;
+}
+
+.icons {
+  padding: 0.3rem 2rem;
+  gap: 0.8rem;
+}
+
+.ct-panel {
+  align-items: center;
+}
+
+.volume {
+  height: 4px;
+  width: 120px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #545454;
+}
+
+.box-playbar {
+  width: 60%;
+  padding-top: 4px;
+}
+
+.playbar {
+  height: 4px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #545454;
+}
+
+.fill-playbar {
+  width: 20%;
+  height: 100%;
+  background-color: #adadad;
+}
+
+.gap1 {
+  gap: 1rem;
+}
+
+.gap2 {
+  gap: 1.7rem;
+}
+
+.shrink {
+  flex-shrink: 0;
 }

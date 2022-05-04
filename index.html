@@ -21,7 +21,7 @@
     <div class="app-container column">
       <div class="grow row">
         <!-- SIDEBAR -->
-        <div class="debug sidebar column bg-black">
+        <div class="sidebar column bg-black">
           <div class="logo">
             <img src="img/logo.svg" alt="" />
           </div>
@@ -88,7 +88,7 @@
               <div class="turn-white text-grey">
                 <i id="download" class="fa-regular fa-circle-down"></i>
                 <a class="font-small link" href="">Installa app</a>
-              </div>             
+              </div>
             </span>
             <hr class="text-grey" />
             <div id="utente">
@@ -98,15 +98,64 @@
           </div>
         </div>
         <!-- MAIN -->
-        <div class="debug grow column">
-          <div class="debug head-container bg-dark row justify-end">
-            <button class="button text-white font-medium">EFFETTUA L'UPGRADE</button>
+        <div class="grow column bg-semidark">
+          <div class="head-container bg-dark row justify-end">
+            <button class="button text-white font-small">
+              EFFETTUA L'UPGRADE
+            </button>
           </div>
-          <div class="debug main-container grow scroll"></div>
+          <div class="main-container column grow scroll">
+            <div class="main-link"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
       <!-- PLAYER -->
-      <div class="debug player-container"></div>
+      <div class="player-container bg-grey row">
+        <div class="row shrink align-center">
+          <div>
+            <img id="player-img" src="img/sinister.jpeg" alt="" />
+          </div>
+          <div class="column current-song">
+            <span class="text-white font-small">Sinister</span>
+            <span class="text-grey font-little turn-white add-underline"
+              >Brano Nome</span
+            >
+          </div>
+          <div class="icons row align-center">
+            <i class="fa-regular fa-heart text-grey turn-white"></i>
+            <i class="fa-regular fa-folder text-grey turn-white"></i>
+          </div>
+        </div>
+        <div class="grow ct-panel text-white column">
+          <div class="row gap1 align-center">
+            <i class="fa-solid fa-shuffle text-white font-small"></i>
+            <i class="fa-solid fa-backward-step text-white font-small"></i>
+            <i id="playbutton" class="fa-regular fa-circle-play text-white font-big"></i>
+            <i class="fa-solid fa-forward-step text-white font-small"></i>
+            <i class="fa-solid fa-arrow-rotate-right text-white font-small"></i>
+          </div>
+          <div class="box-playbar grow row gap2 align-center space-between">
+            <span class="text-white font-xs">0:25</span>
+            <div class="playbar">
+              <div class="fill-playbar"></div>
+            </div>
+            <span class="text-white font-xs">4:35</span>
+          </div>
+        </div>
+        <div class="row align-center gap1 shrink">
+          <div class="text-white font-small gap1 row">
+            <i class="fa-solid fa-list"></i>
+            <i class="fa-solid fa-display"></i>
+            <i class="fa-solid fa-volume-high"></i>
+          </div>
+          <div class="volume">
+            <div class="fill-playbar"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
