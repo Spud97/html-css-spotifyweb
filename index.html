@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Spotify</title>
   </head>
@@ -22,19 +26,82 @@
             <img src="img/logo.svg" alt="" />
           </div>
           <div class="menù">
-            <div class="menù-item">
-              <img src="img/home.svg" alt="" />
+            <div class="menù-row">
+              <div class="menù-item">
+                <img src="img/home.svg" alt="" />
+              </div>
+              <div class="menù-text">
+                <a class="text-white font-small">Home</a>
+              </div>
             </div>
-            <div class="menù-text">
-              <span class="text-white font-small">Home</span>
+            <div class="menù-row text-grey turn-white">
+              <div class="menù-item">
+                <img src="img/search.svg" alt="" />
+              </div>
+              <div class="menù-text">
+                <a class="font-small">Cerca</a>
+              </div>
+            </div>
+            <div class="menù-row text-grey turn-white">
+              <div class="menù-item">
+                <img src="img/libreria.svg" alt="" />
+              </div>
+              <div class="menù-text">
+                <a class="font-small">La tua libreria</a>
+              </div>
             </div>
           </div>
-          <div class="playlist grow"></div>
-          <div class="user"></div>
+          <div class="playlist grow">
+            <h2 class="text-white">PLAYLIST</h2>
+            <div>
+              <ul>
+                <li class="text-grey turn-white">
+                  <i id="add" class="fa-solid fa-square-plus"></i
+                  ><span class="font-medium">Crea Playlist</span>
+                </li>
+                <li class="text-grey turn-white font-small">
+                  <span>Nome Playlist</span>
+                </li>
+                <li class="text-grey turn-white font-small">
+                  <span>Nome Playlist</span>
+                </li>
+                <li class="text-grey turn-white font-small">
+                  <span>Nome Playlist</span>
+                </li>
+                <li class="text-grey turn-white font-small">
+                  <span>Nome Playlist</span>
+                </li>
+                <li class="text-grey turn-white font-small">
+                  <span>Nome Playlist</span>
+                </li>
+                <li class="text-grey turn-white font-small">
+                  <span>Nome Playlist</span>
+                </li>
+                <li class="text-grey turn-white font-small">
+                  <span>Nome Playlist</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="user">
+            <span>
+              <div class="turn-white text-grey">
+                <i id="download" class="fa-regular fa-circle-down"></i>
+                <a class="font-small link" href="">Installa app</a>
+              </div>             
+            </span>
+            <hr class="text-grey" />
+            <div id="utente">
+              <img id="profile" src="img/profile.svg" alt="" />
+              <span class="text-white font-medium">John Doe</span>
+            </div>
+          </div>
         </div>
         <!-- MAIN -->
         <div class="debug grow column">
-          <div class="debug head-container"></div>
+          <div class="debug head-container bg-dark row justify-end">
+            <button class="button text-white font-medium">EFFETTUA L'UPGRADE</button>
+          </div>
           <div class="debug main-container grow scroll"></div>
         </div>
       </div>

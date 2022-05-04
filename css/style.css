@@ -9,6 +9,52 @@ body {
   font-family: "Montserrat";
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 1rem;
+}
+
+#add {
+  font-size: 40px;
+  vertical-align: middle;
+  padding-right: 8px;
+}
+
+#download {
+  font-size: 10px;
+  padding-right: 10px;
+  padding-bottom: 0.6rem;
+}
+
+#profile {
+  height: 1.5rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+#utente {
+  padding-top: 0.9rem;
+  padding-bottom: 0.2rem;
+}
+
 .debug {
   /* DEBUG */
   border: 1px dashed red;
@@ -27,6 +73,10 @@ body {
   flex-direction: column;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .grow {
   flex-grow: 1;
   overflow: hidden;
@@ -43,12 +93,12 @@ body {
 
 .head-container {
   flex-shrink: 0;
-  padding: 3rem 0;
+  padding: 1rem 1rem 1.5rem;
 }
 
 .player-container {
   flex-shrink: 0;
-  padding: 2rem 0;
+  padding: 2.8rem 0;
 }
 
 .bg-black {
@@ -56,11 +106,15 @@ body {
 }
 
 .bg-dark {
-  background-color: #080b12;
+  background-color: #0a0e18;
 }
 
 .bg-semidark {
   background-color: #141922;
+}
+
+.bg-grey {
+  background-color: #282828;
 }
 
 .text-white {
@@ -71,14 +125,32 @@ body {
   color: #7c7f83;
 }
 
+.turn-white:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .font-small {
-  font-size: 0.7rem;
-  font-weight: bold;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+.font-medium {
+  font-size: 0.9rem;
+  font-weight: bolder;
 }
 
 .logo {
   width: 80%;
   padding: 1rem 0 1.2rem 1rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.menù-row {
+  padding-bottom: 3px;
 }
 
 .menù-item {
@@ -90,4 +162,20 @@ body {
 
 .menù-text {
   display: inline-block;
+}
+
+.playlist {
+  padding: 1rem 0 0 1rem;
+}
+
+.user {
+  padding: 0 1rem;
+}
+
+.button {
+  padding: 0.8rem 1.5rem;
+  border: 2px solid white;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: transparent;
 }
