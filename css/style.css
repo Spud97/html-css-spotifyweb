@@ -137,6 +137,11 @@ li {
 
 .main-link {
   padding-bottom: 2rem;
+  padding-top: 1.2rem;
+}
+
+.main-box {
+  padding-bottom: 2rem;
 }
 
 .player-container {
@@ -315,10 +320,6 @@ li {
   display: block;
 }
 
-.main-link {
-  padding-top: 1.2rem;
-}
-
 .card {
   width: calc((100% - 5rem) / 6);
   padding-top: 1.8rem;
@@ -348,6 +349,14 @@ li {
 
 .card-item:hover .over-img {
   display: block;
+}
+
+.subtitle {
+  padding-top: 0.5rem;
+}
+
+.circle {
+  border-radius: 50%;
 }
 
 .gap1 {
