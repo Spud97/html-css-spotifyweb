@@ -332,10 +332,6 @@ li {
   width: 100%;
 }
 
-.card-img:hover {
-  backdrop-filter: brightness(-60%);
-}
-
 .card-text {
   padding-top: 1rem;
 }
@@ -346,11 +342,12 @@ li {
   left: 50%;
   transform: translate(-50% , -50%);
   font-size: 3.8rem;
-  color: transparent;
+  color: white;
+  display: none;
 }
 
-.card-img:hover .over-img {
-  color: white;
+.card-item:hover .over-img {
+  display: block;
 }
 
 .gap1 {
