@@ -266,7 +266,7 @@ li {
 
 .ct-panel {
   align-items: center;
-  min-width: 200px;
+  min-width: 260px;
 }
 
 .ct-panel-icons {
@@ -369,6 +369,10 @@ li {
   border-radius: 50%;
 }
 
+.mini-logo {
+  display: none;
+}
+
 .gap1 {
   gap: 1rem;
 }
@@ -379,4 +383,8 @@ li {
 
 .shrink {
   flex-shrink: 0;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }

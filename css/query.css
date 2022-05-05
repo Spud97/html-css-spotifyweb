@@ -1,0 +1,46 @@
+@media screen and (max-width: 700px) {
+  .card {
+    width: calc((100% - 3rem) / 4);
+  }
+
+  .make-space {
+    min-width: 100px;
+  }
+
+  .icons {
+    padding: 0.3rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: calc((100% - 1rem) / 2);
+  }
+  
+  .icons {
+    flex-direction: column;
+    padding: 0.3rem 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .disappear {
+    display: none;
+  }
+
+  .mini-logo {
+    display: block;
+  }
+
+  .normal-logo {
+    display: none;
+  }
+
+  .sidebar {
+    width: 50px;
+  }
+
+  #download {
+    padding-left: 4px;
+  }
+}
