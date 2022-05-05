@@ -52,7 +52,7 @@
             </div>
           </div>
           <div class="playlist grow">
-            <h2 class="text-white">PLAYLIST</h2>
+            <h3 class="text-white">PLAYLIST</h3>
             <div>
               <ul>
                 <li class="text-grey turn-white">
@@ -105,10 +105,35 @@
             </button>
           </div>
           <div class="main-container column grow scroll">
-            <div class="main-link"></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="main-link row justify-center gap1">
+              <a class="font-small text-grey turn-white" href="">IN EVIDENZA</a>
+              <a class="font-small text-grey turn-white" href="">PODCAST</a>
+              <a class="font-small text-grey turn-white" href="">CLASSIFICHE</a>
+              <a class="font-small text-grey turn-white" href=""
+                >GENERI E MOOD</a
+              >
+              <a class="font-small text-grey turn-white" href=""
+                >NUOVE USCITE</a
+              >
+              <a class="font-small text-grey turn-white" href="">SCOPRI</a>
+            </div>
+            <div class="main-box">
+              <h1 class="text-white">Recently played</h1>
+              <div class="row gap1">
+                <div class="card column">
+                  <div class="card-item">
+                    <i class="fa-regular fa-circle-play over-img"></i>
+                    <img class="card-img" src="img/metal_lifting.jpg" alt="" />
+                  </div>
+                  <div class="card-text text-center">
+                    <h2 class="text-white">Heavy Metal</h2>
+                    <div class="text-grey font-small">Subtitle</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-box"></div>
+            <div class="main-box"></div>
           </div>
         </div>
       </div>
@@ -131,16 +156,23 @@
         </div>
         <div class="grow ct-panel text-white column">
           <div class="row gap1 align-center">
-            <i class="fa-solid fa-shuffle text-white font-small"></i>
-            <i class="fa-solid fa-backward-step text-white font-small"></i>
-            <i id="playbutton" class="fa-regular fa-circle-play text-white font-big"></i>
-            <i class="fa-solid fa-forward-step text-white font-small"></i>
-            <i class="fa-solid fa-arrow-rotate-right text-white font-small"></i>
+            <i class="fa-solid fa-shuffle text-white font-medium"></i>
+            <i class="fa-solid fa-backward-step text-white font-medium"></i>
+            <i
+              id="playbutton"
+              class="fa-regular fa-circle-play text-white font-big"
+            ></i>
+            <i class="fa-solid fa-forward-step text-white font-medium"></i>
+            <i
+              class="fa-solid fa-arrow-rotate-right text-white font-medium"
+            ></i>
           </div>
           <div class="box-playbar grow row gap2 align-center space-between">
             <span class="text-white font-xs">0:25</span>
             <div class="playbar">
-              <div class="fill-playbar"></div>
+              <div class="fill-playbar">
+                <i class="fa-solid fa-circle font-little fill-circle"></i>
+              </div>
             </div>
             <span class="text-white font-xs">4:35</span>
           </div>
@@ -152,7 +184,9 @@
             <i class="fa-solid fa-volume-high"></i>
           </div>
           <div class="volume">
-            <div class="fill-playbar"></div>
+            <div class="fill-playbar">
+              <i class="fa-solid fa-circle font-little fill-circle"></i>
+            </div>
           </div>
         </div>
       </div>
